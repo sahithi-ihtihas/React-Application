@@ -1,0 +1,22 @@
+Install Node JS
+
+Check for updated version
+
+npm install -g create-new-app (installed geloally can be done at any location)
+
+create-new-app my-app ( do it in your local folder)
+
+======================================
+
+For Dependencies
+
+npm install --save name
+
+(to install dependencies later)
+
+============================================
+
+For Redux
+
+npm install react-redux@4.3.0 --save
+

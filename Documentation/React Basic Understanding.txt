@@ -1,0 +1,116 @@
+React Version-16
+
+Node JS helps to cook js for server
+it is for your building process
+
+-Developed by facebook - old 2008 fb if you need to update a story u need to refresh 
+  react JS helps things happening in sync/ parallel
+
+-  MVC - Model view controller can  be used on server side
+      It is more of design pattern can be used with any language
+
+- SPA - for ui, for developer- desktop, mobile applications can be controlled by single framework
+JSP becomes difficult to bind businees logic to get dynamic data
+
+React gives dynamic data - both ui and server can work independently
+
+Drawback of traditional - DOM (which needs to be refreshed continously), memory waste and slow 
+This is react overcomes
+
+(traditional es6 classes) Component centric Development (like templates) - JSX javascript extension
+Changes made anywhere doesnt required refresh of whole page
+
+-ReactJSVirtual DOM - copy of view is kept in memory any changes made that is only refreshed 
+-Serverside rendering
+-Data binding
+
+
+Angular is MVC
+But react is only View
+
+Angular is a Framework. React is a library
+
+Angular is 2 data binding
+React 1 way data binding i.e. only 1 store - it is as good as 2 -way it will never loose data
+
+CreateREact app 
+AngularCLI 
+
+
+https://stackblitz.com/  - Visual Studio code available online with nodejs server can be used to work for projects online
+
+React apps
+
+Stackblitz
+codepen
+jsfiddle
+
+================================================================================
+createreact app contains webpack which has internal task manager which listen to changes by default
+
+
+import React etc are default loaded from node modules installed
+
+Class - Capital Letter
+
+Render() - predefined function- when u are here.this is it return something and that is JSX
+It has only one div otherwise it gives error JSX expressions have only one Parent class
+
+ReactDOM - Tells how to render
+reactdom.render contains 2 things what to render, where to render
+
+Use component <name/> in parent
+
+props are mutable (profile pic cant be changed by frnds)
+states are immutable (likes that can be changed)
+
+
+state is sent by parent, prop is what received by child
+
+State- intialise, change state, render
+
+if u try to change the state or prop then u have to bind that
+
+preState gives current state
+
+stateless components where there will no reflections of change of components they are just presentation components
+
+in stateless there are no extended classes and no render function
+
+=================================================================================
+Multiple page applications bandwith is waste on server side
+
+switch helps u to pick routes and redirect
+==========================================================
+sass - extension of css
+ - u can reuse it, compute it 
+- it cannot be understood by browsers
+-Syntactically awesome style sheet
+==================================================================
+
+Redux - predictable state container for js apps
+- it can used for any react,jquery etc
+-independent api
+
+store is a universal container thAT CONTAINS states. Global provider
+
+state is a immutable - in case changed it actually doesnt change it gives new state
+changes are made with pure functions
+reducers have actions and states
+actions are responsinble to change state
+
+redux has provider
+
+react children has connect to take the state from redux
+connect is who is providing the state and component who needs the state
+
+=========================================================================
+
+
+
+
+
+
+
+
+
